@@ -33,6 +33,9 @@ git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-p
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
 
 # argon主题
+pushd package/lean
+rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+popd
 # Edge主题
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
